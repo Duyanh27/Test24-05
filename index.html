@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <img />
+    <img src="girl.png" />
     <h1>ABOUT</h1>
     <p>
       It can be intimidating for women to learn and ask questions when they are
@@ -33,7 +33,22 @@
       </tr>
     </table>
     <h2>Sign Up!</h2>
-    <p>Name:</p>&nbsp;<input type="text" id="txt" />
-
+    <p>Name:</p>
+    &nbsp;<input type="text" id="txtname" />
+    <p>Email:</p>
+    &nbsp;<input type="text" id="txtemail" />
+    <p>Location:</p>
+    &nbsp;<select name="choices" id="choice">
+      <option value="San Francisco">San Francisco</option>
+      <option value="Vietnam">Vietnam</option>
+      <fieldset>
+        <legend>Gender:</legend>
+        <input type="radio" name="Female" id="Female" />Female &nbsp;
+        <input type="radio" name="Male" id="Male" />Male
+      </fieldset>
+      <p>Experience:</p>
+      <textarea name="Experience" id="exp" cols="30" rows="5"></textarea>
+      <button>Sign up</button>
+    </select>
   </body>
 </html>
